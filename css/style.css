@@ -1,0 +1,121 @@
+/* Nel Hahsira */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Montserrat, sans-serif;
+   font-size: 1.2rem;
+   line-height: 1.5;
+   background: linear-gradient(45deg, #fd79a8, #a29bfe);
+   height: 100%;
+}
+
+label {
+   color: #ffffff;
+}
+
+[type="text"],
+[type="email"],
+[type="number"],
+[type="submit"],
+select,
+textarea {
+   width: 100%;
+   border-radius: 8px;
+   outline: none;
+   border: none;
+   padding: 0.75rem;
+   font-size: 1.1rem;
+   margin-top: 0.5rem;
+}
+
+.radio {
+   margin-top: 0.5rem;
+}
+
+.form-group {
+   margin-bottom: 1.5rem;
+}
+
+.container {
+   margin: auto;
+   padding-top: 3rem;
+   margin-bottom: 5rem;
+}
+
+.title-section {
+   text-align: center;
+   color: #ffffff;
+}
+
+#description {
+   padding: 1rem 0;
+}
+
+#survey-form {
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 3rem 2rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+   margin-right: 0.75rem;
+   margin-top: 0.5rem;
+}
+
+textarea {
+   resize: none;
+   font-size: 1.5rem;
+}
+
+[type="submit"] {
+   margin-top: 1rem;
+   cursor: pointer;
+   background: linear-gradient(to right, #e84393, #6c5ce7);
+   color: #ffffff;
+   text-transform: uppercase;
+}
+
+/* Extra
+   small
+   devices
+   (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .container {
+      width: 450px;
+   }
+}
+
+/*	Small devices (portrait tablets and large phones, 600px and up)	*/
+@media only screen and (min-width: 600px) {
+   .container {
+      max-width: 576px;
+   }
+}
+
+/*	Medium devices (landscape tablets, 768px and up)	*/
+@media only screen and (min-width: 768px) {
+   .container {
+      max-width: 720px;
+   }
+}
+
+/*	Large devices (laptops/desktops, 992px and up)	*/
+@media only screen and (min-width: 992px) {
+   .container {
+      max-width: 960px;
+   }
+}
+
+/*	Extra large devices (large laptops and desktops, 1200px and up)	*/
+@media only screen and (min-width: 1200px) {
+   .container {
+      max-width: 1140px;
+   }
+}
